@@ -6,9 +6,9 @@
 	<recipeUsers>
 			<li>TableMachining</li>
 	</recipeUsers>
-    <label>make healer mech serum</label>
-    <description>Make Orbital Trasnponder.</description>
-    <jobString>Making component.</jobString>
+    <label>make orbital transponder</label>
+    <description>Make orbital transponder</description>
+    <jobString>Making orbital transponder.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
