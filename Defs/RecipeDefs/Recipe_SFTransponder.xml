@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+    <defName>SFMakeOrbitalTransponder</defName>
+	<recipeUsers>
+			<li>TableMachining</li>
+	</recipeUsers>
+    <label>make healer mech serum</label>
+    <description>Make Orbital Trasnponder.</description>
+    <jobString>Making component.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>9000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Component</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Component</li>
+		<li>Steel</li>
+		<li>Silver</li>
+		<li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SFOrbitalTraderTransponder>1</SFOrbitalTraderTransponder>
+    </products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+			<Intellectual>4</Intellectual>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  
+</Defs>
