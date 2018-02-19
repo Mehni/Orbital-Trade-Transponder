@@ -1,7 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ArtifactBase">
+ <ThingDef ParentName="ResourceBase" Name="SFArtifactBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Artifacts</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+    <statBases>
+      <Mass>0.5</Mass>
+		</statBases>
+    <comps>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_Artifact</compClass>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SFArtifactBase">
     <defName>SFOrbitalTraderTransponder</defName>
     <label>Orbital trader transponder</label>
     <description>One-use item that can signal an orbital trader to your position, trader type is random.</description>
@@ -15,7 +36,7 @@
     <useHitPoints>true</useHitPoints>
 	<techLevel>Spacer</techLevel>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>1500</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
     </statBases>
     <drawGUIOverlay>false</drawGUIOverlay>
