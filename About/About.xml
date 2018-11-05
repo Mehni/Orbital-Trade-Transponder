@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-  <name>SF [B18] Orbital Trader Transponder</name>
+  <name>SF [1.0] Orbital Trader Transponder</name>
   <author>Mehni and Shotgunfrenzy</author>
-  <targetVersion>0.18.1722</targetVersion>
+  <targetVersion>1.0.2059</targetVersion>
   <description> Tired of waiting for a damn orbital trader to show up? 
   
   Forgot to edit your scenario to make them appear every couple of days/quadrums, and didn't want to resort to dev mode?
